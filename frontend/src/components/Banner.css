@@ -1,0 +1,22 @@
+/* General text style */
+.bannerTxt {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}
+
+/* Override spacing for small screens */
+@media (max-width: 767px) {
+  .bannerTxt {
+    font-size: 20px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .bluebox {
+    margin-top: 10px !important;
+    padding: 10px !important;
+  }
+}
