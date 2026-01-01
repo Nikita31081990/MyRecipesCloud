@@ -44,9 +44,10 @@ const RecipeDetails = () => {
         <p>Added on {new Date(createdAt).toLocaleDateString()}</p>
 
         <img
-          className="col-sm-12 col-lg-5"
+          className=""
           src={image?.image_url}
           alt={title}
+          style={{ height: "200px", objectFit: "cover" }}
           // style={{ maxWidth: "400px", height: "300px", objectFit: "cover" }}
         />
 
