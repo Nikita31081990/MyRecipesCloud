@@ -83,7 +83,8 @@ exports.login = async (req, res) => {
       // Set cookie
       res.cookie("token", token, {
         httpOnly: true,
-        secure: false,
+        secure: true, // 🔥 MUST (Render is HTTPS)
+        sameSite: "none", // 🔥 MUST (Netlify → Render)
         expires: new Date(Date.now() + 1000 * 60 * 60 * 24 * 30), // 30 days
       });
 
