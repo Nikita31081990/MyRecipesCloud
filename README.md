@@ -142,5 +142,3 @@ MYRECIPESCLOUD
 ### 🍲 Category Page
 
 ![Category](./screenshot/Category.png)
-
-<!-- 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 -->
