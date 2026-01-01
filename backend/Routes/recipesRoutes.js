@@ -27,7 +27,7 @@ router.post(
 );
 
 // ✅ GET ALL
-router.get("/getAllRecipes", getAllRecipes);
+router.get("/", getAllRecipes);
 
 // ✅ GET SINGLE
 router.get("/getRecipes/:id", getRecipes);
